@@ -68,13 +68,13 @@ nav .logo img{
   height: 10%;
   margin-top: 13px;
   margin-left: -13px;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 
 
 nav {
   background: rgba(1, 8, 35, 0.2);
-  height: 70px;
+  height: 65px;
   position: fixed;
   width: 100%;
   left: 0;
