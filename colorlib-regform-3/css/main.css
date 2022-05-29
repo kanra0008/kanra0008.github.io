@@ -501,7 +501,7 @@ input {
 }
 
 .card-3 {
-  background-image: url("/colorlib-regform-3/images/dibProgJs.png");
+  background: #000;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -514,7 +514,6 @@ input {
 
 .card-3 .card-heading {
   background: url("/colorlib-regform-3/images/dibProgJs.png") top left/cover no-repeat;
-  text-align: center; 
   display: table-cell;
   width: 50%;
 }
