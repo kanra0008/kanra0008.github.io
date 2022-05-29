@@ -501,7 +501,7 @@ input {
 }
 
 .card-3 {
-  background: #000;
+  background-image: url("/colorlib-regform-3/images/dibProgJs.png");
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
