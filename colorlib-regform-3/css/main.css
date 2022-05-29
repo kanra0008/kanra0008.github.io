@@ -163,13 +163,13 @@ h6 {
 /* ==========================================================================
    #BACKGROUND
    ========================================================================== */
-background-image: linear-gradient(to right, #6c6d45, #8a8c42, #aaac3b, #cccc2d, #f0ed05);
+ 
 
-
-/*.bg-blue {
-  background: #383d18;
+.bg-blue {
+  background: linear-gradient(to right, #6c6d45, #8a8c42, #aaac3b, #cccc2d, #f0ed05);
 }
 
+/*
 .bg-red {
   background: #494c2a;
 }
