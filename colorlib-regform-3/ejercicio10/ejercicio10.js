@@ -15,13 +15,13 @@
                     "Febrero":"February",
                     "Marzo":"March",
                     "Abril":"April",
-                    "Mayo":"March",
+                    "Mayo":"May",
                     "Junio":"Juny",
                     "Julio":"July",
                     "Agosto":"August",
                     "Septiembre":"September",
                     "Octubre":"October",
-                    "Nobiembre":"November",
+                    "Noviembre":"November",
                     "Diciembre":"December"}
 
     let mes = document.getElementById("mes").value;
