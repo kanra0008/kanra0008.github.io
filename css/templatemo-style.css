@@ -14,7 +14,7 @@ body {
 body::-webkit-scrollbar {
   width: 8px;
   height: 8px;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 60, 0.9);
 }
 /* Add a thumb */
 body::-webkit-scrollbar-thumb {
@@ -144,7 +144,7 @@ nav {
 /* Menu */
 
 .overlay-menu {
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 60, 0.95);
   color: #ffffff;
   position: fixed;
   z-index: 100;
@@ -424,7 +424,7 @@ nav {
 
 /* Modal */
 .modal {
-  background-color: rgba(0,0,0,.95);
+  background-color: rgba(0,0, 60,.95);
   display: none;
   overflow: auto;
   position: fixed;
@@ -579,8 +579,8 @@ nav {
 
 footer {
   width: 100%;
-  height: 80px;
-  background-color: #313131;
+  height: 40px;
+  background-color: #00006d;
 }
 
 footer p {
@@ -588,7 +588,7 @@ footer p {
   color: #fff;
   font-weight: 200;
   font-size: 13px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding-top: 33px;
   letter-spacing: 0.5px;
 }
@@ -773,7 +773,7 @@ footer a:hover {
   text-decoration: none;
   letter-spacing: 1px;
   color: #fff;
-  background-color: #313131;
+  background-color: #000060;
   transition: all 0.5s;
  }
 
@@ -841,7 +841,7 @@ footer a:hover {
 }
 
 .more-about-us .content {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,60,0.8);
   text-align: left;
   padding: 150px 60px;
   color: #fff;
