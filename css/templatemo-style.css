@@ -64,8 +64,6 @@ nav .logo {
 }
 
 nav .logo img{
-  width: 10%;
-  height: 10%;
   margin-top: 18px;
   margin-left: -13px;
   border-radius: 15px;
@@ -74,7 +72,7 @@ nav .logo img{
 
 nav {
   background: rgba(1, 8, 35, 0.2);
-  height: 65px;
+  height: 75px;
   position: fixed;
   width: 100%;
   left: 0;
