@@ -298,7 +298,7 @@ nav {
   text-decoration: underline;
 }
 
-#video-container .video-content .inner .scroll-icon {
+/*#video-container .video-content .inner .scroll-icon {
   margin-top: 45px;
 }
 
@@ -306,7 +306,7 @@ nav {
 .full-screen-portfolio .col-md-4, .col-md-8 {
   padding-left: 0px;
   padding-right: 0px;
-}
+}*/
 
 
 .portfolio-item img {
@@ -373,6 +373,29 @@ nav {
   opacity: 1;
   transform: translateY(0);
  }
+
+
+ .scroll-icon {
+  position: fixed;
+  bottom: 720px;
+  right: 20px;
+  z-index: 300;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.scroll-icon button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+
+.scroll-icon img {
+  border-radius: 10px;
+} 
+
 
 
 
