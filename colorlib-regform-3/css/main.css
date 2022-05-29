@@ -163,7 +163,10 @@ h6 {
 /* ==========================================================================
    #BACKGROUND
    ========================================================================== */
-.bg-blue {
+background-image: linear-gradient(to right, #6c6d45, #8a8c42, #aaac3b, #cccc2d, #f0ed05);
+
+
+/*.bg-blue {
   background: #383d18;
 }
 
@@ -177,7 +180,7 @@ h6 {
   background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
   background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
   background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
-}
+}*/
 
 /* ==========================================================================
    #SPACING
