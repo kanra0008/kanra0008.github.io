@@ -1,11 +1,20 @@
-/** JavaScript para el ejercicio 2 
-* Invoca desde una página html el código JS que te pida, mediante formulario, el radio de 
-* una circunferencia y te muestre en la propia página tres resultados:
-*   a. Longitud de la circunferencia que corresponde a ese radio
-*   b. Área del círculo 
-*   c. Volumen de la esfera
- * Authora: Esther Hitos Garcia
- * */
+/*****************************************************
+ *   
+ *  EJERCICIO 2 JS  -  AUTOR: JOSÉ ANTONIO RÍOS GONZÁLEZ
+ * 
+ * Invoca desde una página html el código JS que te pida, mediante formulario, el radio de 
+ * una circunferencia y te muestre en la propia página tres resultados:
+ *   a. Longitud de la circunferencia que corresponde a ese radio
+ *   b. Área del círculo 
+ *   c. Volumen de la esfera
+ * 
+ ******************************************************/
+
+
+
+
+
+
 
 //1º forma del boton
 //indicamos al pricipio del JS que evento dispara que funcion utilizando el arbol DOM
