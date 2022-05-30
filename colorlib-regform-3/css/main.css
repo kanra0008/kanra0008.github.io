@@ -122,7 +122,7 @@ button {
    #PAGE WRAPPER
    ========================================================================== */
 .page-wrapper {
-  min-height: 100%;
+  min-height: 300vh;
 }
 
 body {
@@ -160,27 +160,6 @@ h6 {
   font-size: 13px;
 }
 
-/* ==========================================================================
-   #BACKGROUND
-   ========================================================================== */
- 
-
-.bg-blue {
-  background: linear-gradient(to right, #6c6d45, #8a8c42, #aaac3b, #cccc2d, #f0ed05);
-}
-
-/*
-.bg-red {
-  background: #494c2a;
-}
-
-.bg-gra-01 {
-  background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1 100%));
-  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
-  background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
-}*/
 
 /* ==========================================================================
    #SPACING
