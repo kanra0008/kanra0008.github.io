@@ -124,6 +124,7 @@ button {
 .page-wrapper {
   height: 100vh;
   width: 100vw;
+  background: url("/img/fondoEjercicios.png");
 }
 
 body {
@@ -195,13 +196,13 @@ h6 {
    ========================================================================== */
 /*.wrapper {
   margin: 0 auto;
-}
+}*/
 
 .wrapper--w960 {
-  max-width: 960px;
+  max-width: 1200px;
 }
 
-.wrapper--w780 {
+/*.wrapper--w780 {
   max-width: 780px;
 }
 
