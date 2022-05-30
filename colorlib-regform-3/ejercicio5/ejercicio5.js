@@ -1,10 +1,12 @@
-/** JavaScript para el ejercicio 5 
+/*****************************************************
+ *   
+ *  EJERCICIO 5 JS  -  AUTOR: JOSÉ ANTONIO RÍOS GONZÁLEZ
  * 
  * Detecta Cadena de caracteres, 
- * es mayúsculas o minúsculas 
+ * es mayúsculas o minúsculas. 
  * 
- * Authora: Esther Hitos Garcia
- * */
+ ******************************************************/
+ 
 
 document.getElementById('mayusculaMinuscula').addEventListener("click",mayMin);
 function mayMin() {
