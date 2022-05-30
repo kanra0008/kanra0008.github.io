@@ -10,7 +10,9 @@
  ******************************************************/
 
 
+
  document.getElementById('traducir').addEventListener("click",TraducirNombre);
+
  function TraducirNombre(){
 
     const meses = {"Enero":"January",
@@ -25,17 +27,14 @@
                     "Octubre":"October",
                     "Noviembre":"November",
                     "Diciembre":"December"}
+    
 
     let mes = document.getElementById("mes").value;
 
  
-    //let respuesta ="";
 
     let respuesta = (mes == "error")? "no has elegido mes. ": meses[mes];//hay que poner la variable
-   /* if(numeroMes==-1)
-        respuesta= "No has elegido numero";
-    else
-        respuesta = meses[numeroMes];*/
+  
     
 
     document.getElementById("nombreMes").innerHTML=respuesta;

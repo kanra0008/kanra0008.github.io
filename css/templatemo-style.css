@@ -8,7 +8,7 @@ https://templatemo.com/tm-520-highway
 
 body {
   font-family: 'Kanit', sans-serif;
-    background-image: url(../images/fondoHuecoJS.png);
+    background-image: url(../img/fondoHuecoJS.png);
 }
 
 body::-webkit-scrollbar {
@@ -312,6 +312,9 @@ nav {
 .portfolio-item img {
   width: 100%;
   overflow: hidden;
+  border-radius: 25px;
+  padding-top:15px;
+  padding-right: 5px;
 }
 
 .portfolio-item .thumb {

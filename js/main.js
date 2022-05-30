@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
           $(document).on('click', function(e) {
             var target = $(e.target);
             if(target.is(modal) || target.is(close)) {
-              modContent.removeClass('modal-animated-in').addClass('modal-animated-out').delay(300).queue(function(next) {
+              modContent.removeClass('modal-animated-in').addClass('modal-animated-out').delay(800).queue(function(next) {
                 modal.css('display', 'none');
                 next();
               });

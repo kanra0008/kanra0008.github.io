@@ -8,6 +8,9 @@
  ******************************************************/
  
 
+
+
+
 document.getElementById('mayusculaMinuscula').addEventListener("click",mayMin);
 function mayMin() {
 
@@ -17,19 +20,19 @@ function mayMin() {
     
 
     
-    // Comprobar mayúsculas y minúsculas
-    if(cadena === cadena.toUpperCase()) {
-      resultado += " en mayúsculas";
-    }
-    else if(cadena === cadena.toLowerCase()) {
-      resultado += " en minúsculas";
-    }
-    else {
-      resultado += " en mayúsculas y minúsculas";
-    }
+
+        if(cadena === cadena.toUpperCase()) {
+           resultado += " en mayúsculas";
+         }
+         else if(cadena === cadena.toLowerCase()) {
+           resultado += " en minúsculas";
+         }
+         else {
+           resultado += " en mayúsculas y minúsculas";
+         }
   
-    return document.getElementById('resultado').innerHTML = "La Cadena esta escrita : "+resultado;
+           return document.getElementById('resultado').innerHTML = "La Cadena esta escrita : "+resultado;
     
-  }
+        }
   
 

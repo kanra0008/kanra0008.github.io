@@ -10,13 +10,16 @@
  
  
 
+
  document.getElementById('Euclides').addEventListener("click",divisionEuclides);
-function divisionEuclides() {
+
+    function divisionEuclides() {
     
-    let divi =Number (document.getElementById('dividendo').value);
-    let divisor =Number( document.getElementById('divisor').value);
-    let cociente =0;
-    while (divi>=divisor){
+      let divi =Number (document.getElementById('dividendo').value);
+      let divisor =Number( document.getElementById('divisor').value);
+      let cociente =0;
+   
+     while (divi>=divisor){
 
        divi -= divisor;
        cociente++;      

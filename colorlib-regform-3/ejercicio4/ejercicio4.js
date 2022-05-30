@@ -10,16 +10,22 @@
  ******************************************************/
 
 
+
+
+
+
 document.getElementById('letraDNI').addEventListener("click",letraDni);
 function letraDni(){
 
-const LETRAS = "TRWAGMYFPDXBNJZSQVHLCKE";
+  
+  
+  const LETRAS = "TRWAGMYFPDXBNJZSQVHLCKE";
 
-let dni = Number(document.getElementById('dni').value);
+  let dni = Number(document.getElementById('dni').value);
 
-let resto = dni % 23;
+  let resto = dni % 23;
 
-let letra = LETRAS.substring(resto,resto+1);
+  let letra = LETRAS.substring(resto,resto+1);
 
 document.getElementById('letra').innerHTML = "La letra es: "+letra;
 }
