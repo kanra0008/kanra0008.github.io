@@ -14,17 +14,6 @@
 
 
 
-
-
-/* La primera manera:
-   1-Se señala el evento que dispara el evento al comienzo del archivo js, usando el arbol DOM
-
-
-//1º forma del boton
-//indicamos al pricipio del JS que evento dispara que funcion utilizando el arbol DOM
-
-
-//2º forma del boton mas optima con addEventListener cogiendo el id del boton
 document.getElementById('calcular').addEventListener("click",calcular);
 
 
@@ -37,7 +26,8 @@ function calcular(){
     let circulo = radio ** 2 * Math.PI;
     let esfera = radio ** 3 * Math.PI;
 
-    // mostrar resultados
+    
+   // Volcado por pantalla de resultados
     
     
        let nuevoNodo=document.createElement("li");
