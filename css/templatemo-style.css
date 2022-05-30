@@ -566,7 +566,7 @@ footer a:hover {
 
 .grid-portfolio .portfolio-item h1 {
   position: relative;
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
   color: #fff;
   display: inline-block;
@@ -590,17 +590,17 @@ footer a:hover {
   padding-left: 20px;
   font-weight: 300!important;
   letter-spacing: 0.5px;
-  font-size: 14px;
+  font-size: 24px;
   color: #fff;
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateX(10px);
   transition: 1s ease-in-out;
   text-transform: uppercase;
  }
 
 .grid-portfolio .portfolio-item:hover p {
-  opacity: 1;
-  transform: translateY(0);
+  opacity: 2;
+  transform: translateX(0);
  }
 
  .grid-portfolio .load-more-button {
