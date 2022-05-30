@@ -1,13 +1,16 @@
-/**
- * JavaScript de Ejercicio 8
+/*****************************************************
+ *   
+ *  EJERCICIO 8 JS  -  AUTOR: JOSÉ ANTONIO RÍOS GONZÁLEZ
  * 
  * JavaScript que calcule la división entera 
  * por el algoritmo de Euclides, entre dos números
  * y muestre el resultado del cociente y el resto y
  * calcularemos el MCD por el método de Euclides
  * 
- * Authora: Esther Hitos Garcia
- */
+ ******************************************************/
+ 
+
+
  document.getElementById('Function').addEventListener("click",myFunction);
  var x,y,z,mcd,text,text2,text3,resulta;  
  function myFunction() {  
