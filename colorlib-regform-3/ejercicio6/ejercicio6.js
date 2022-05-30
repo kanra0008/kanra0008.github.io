@@ -1,10 +1,14 @@
-/** JavaScript para el ejercicio 6 
+/*****************************************************
+ *   
+ *  EJERCICIO 6 JS  -  AUTOR: JOSÉ ANTONIO RÍOS GONZÁLEZ
  * 
  * Detecta Cadena de caracteres, 
- * y te dice si es palindromo o no
- *  
- * Authora: Esther Hitos Garcia
- * */
+ * y te dice si es palindromo o no.
+ * 
+ ******************************************************/
+ 
+
+
 document.getElementById('palindromo').addEventListener("click",esPalindromo);
 function esPalindromo() {
     let cadena = document.getElementById('caracteres').value;
