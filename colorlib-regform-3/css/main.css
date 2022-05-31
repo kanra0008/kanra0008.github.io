@@ -199,19 +199,19 @@ h6 {
  max-width: 1200px;  
 }   
 
-/*.wrapper {
+.wrapper {
   margin: 0 auto;
   text-align: center;
-}*/
+}
 
-/*
+
 .wrapper--w960 {
   max-width: 1200px;
-}*/
-
-/*.wrapper--w780 {
-  max-width: 780px;
 }
+
+.wrapper--w780 {
+  max-width: 780px;
+
 
 .wrapper--w680 {
   max-width: 680px;
